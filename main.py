@@ -6,7 +6,7 @@ from aiogram.dispatcher import Dispatcher
 from aiogram.types import ParseMode
 from aiogram.utils import executor
 
-API_TOKEN = '6834318456:AAE6UX3TsZZMg2e_ZZX7X_5L7X73awfWyXc'
+API_TOKEN = 'TOKEN'
 
 logging.basicConfig(level=logging.INFO)
 
