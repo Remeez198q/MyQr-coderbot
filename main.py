@@ -37,7 +37,7 @@ async def on_start(message: types.Message):
         types.InlineKeyboardButton("Сгенерировать QR-код", callback_data="generate_qr_code"),
         types.InlineKeyboardButton("Помощь", callback_data="help"),
     )
-    await message.answer("Здаров, я бот QR-кодер для создания qr. Мой отец @Remeez198q", reply_markup=keyboard_markup)
+    await message.answer("Здаров, я бот QR-кодер для создания qr.", reply_markup=keyboard_markup)
 
 dp.register_message_handler(on_start, commands=['start'])
 
